@@ -12,7 +12,7 @@ All you need to map a dataset is a spreadsheet with columns for latitude and lon
 
 You may be asking, how can i get latitude and longitude for places? It's actually really easy to get coordinates out of Google Maps. You can right click anywhere on the map, and click "What's here?" from the pop-up menu. That will make a little box show up at the bottom of the page, which should look something like this:
 
-![Google maps screenshot](img/popup_box.png)
+![Google maps screenshot](img/popup_box.jpg)
 
 You can copy and paste the coordinates from that box. You can click on them, which will put the coordinates in the search box, and which you may find easier to copy and paste from.
 
@@ -26,7 +26,7 @@ You can create a map through Google Drive by clicking the "+ New" button, and th
 
 That will drop you into an interface with a map at the center, and a few different ways to add information. Let's start by adding a point. Navigate around the map as you would in Google Maps, and then click the "add point" button, the one with the pin icon:
 
-![Google maps screenshot](img/add_point.png)
+![Google maps screenshot](img/add_point.jpg)
 
 Then you can click anywhere on the map to create a point. By default points have titles and descriptions. Try adding a couple of points to your map, and add titles and descriptions as you see fit.
 
@@ -36,11 +36,11 @@ When creating a spatial dataset, you often have more that you want to say about 
 
 Hiding behind every data layer in your map is a table of information. We can access that table through the menu icon by the layer name:
 
-![Google maps screenshot](img/layer_options.png)
+![Google maps screenshot](img/layer_options.jpg)
 
 That will give you a little popup menu, just select "Open data table" there. That will give you a spreadsheet-like view like this one:
 
-![Google maps screenshot](img/data_table.png)
+![Google maps screenshot](img/data_table.jpg)
 
 From there, you can click the small arrow by any column header and click "insert column before" or "insert column after" to add new columns to your dataset.
 
@@ -52,11 +52,11 @@ It wouldn't do you much good to create maps here if you couldn't export them, so
 
 First, you have to open the map options menu, which you can access from the menu icon by the map name (not to be confused with the layer options menu)
 
-![Google maps screenshot](img/map_options.png)
+![Google maps screenshot](img/map_options.jpg)
 
 From here, select "Export to KML/KMZ", and you'll get this popup box:
 
-![Google maps screenshot](img/export_options.png)
+![Google maps screenshot](img/export_options.jpg)
 
 I've found KML to be the more cross-compatible export format, so just check the box for KML as I've done in the screenshot and click "Download", and you'll have a file you can open in most mapping software. It can require some conversion for some programs, like the one we're about to use, but I'll come back to that later.
 
@@ -70,7 +70,7 @@ The data that we've been working with is the simplest form of what in GIS-world 
 
 Let's make some simple vector data with a site called [geojson.io](http://geojson.io/). When you first load in, you'll have an empty map and some options for drawing on it:
 
-![Geojson.io screenshot](img/geojson_io.png)
+![Geojson.io screenshot](img/geojson_io.jpg)
 
 You can see that here we can draw lines, polygons, rectangles, and good old fashioned points. When you click on the icon for one of those geometries, you'll be able to create whatever you've selected. The interface differs a bit depending on what you're doing, and there's pop-up text to help, but here's an overview:
 
